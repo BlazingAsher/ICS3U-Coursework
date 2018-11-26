@@ -24,7 +24,7 @@ while running:
     for i in range(len(dots)):
         draw.circle(screen, WHITE, dots[i], 3)
         dots[i] = (dots[i][0], dots[i][1]+4) if dots[i][1] < height else (dots[i][0], 0)
-    clock.tick(30)
+    clock.tick(60)
     display.flip()
 
 raise SystemExit
